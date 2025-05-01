@@ -1,0 +1,9 @@
+{
+	"name": "shell",
+	"version": "1.0.0",
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build"
+	},
+	"packageManager": "pnpm@10.10.0"
+}
