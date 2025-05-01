@@ -1,7 +1,12 @@
+import Banners from "@/modules/root/banners";
+
 export default function Index() {
   return (
-    <div>
-      <h1>Hola</h1>
-    </div>
+    <>
+      <p>Header</p>
+      <Banners />
+      <p>Categories</p>
+      <p>Footer</p>
+    </>
   );
 }

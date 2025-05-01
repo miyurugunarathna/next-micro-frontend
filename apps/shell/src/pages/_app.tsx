@@ -1,6 +1,13 @@
 import Head from 'next/head';
-import './globals.css';
 import type { AppProps } from 'next/app';
+import { Bebas_Neue } from 'next/font/google';
+import './globals.css';
+
+const bebas = Bebas_Neue({
+  subsets: ['latin'],
+  variable: '--font-bebas',
+  weight: '400',
+});
 
 function CustomApp({ Component, pageProps }: AppProps) {
   return (
@@ -8,7 +15,7 @@ function CustomApp({ Component, pageProps }: AppProps) {
       <Head>
         <title>Micro Frontend with Module Federation</title>
       </Head>
-      <main>
+      <main className={bebas.variable}>
         <Component {...pageProps} />
       </main>
     </>

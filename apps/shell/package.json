@@ -5,5 +5,8 @@
     "dev": "next dev",
     "build": "next build"
   },
-  "packageManager": "pnpm@10.10.0"
+  "packageManager": "pnpm@10.10.0",
+  "dependencies": {
+    "@internal/ui": "workspace:*"
+  }
 }

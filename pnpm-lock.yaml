@@ -46,7 +46,11 @@ importers:
         specifier: ^5.8.3
         version: 5.8.3
 
-  apps/shell: {}
+  apps/shell:
+    dependencies:
+      '@internal/ui':
+        specifier: workspace:*
+        version: link:../../packages/ui
 
   packages/ui:
     dependencies:
