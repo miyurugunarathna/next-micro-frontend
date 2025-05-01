@@ -1,11 +1,12 @@
-import Banners from "@/modules/root/banners";
+import Banners from '@/modules/root/banners';
+import Categories from '@/modules/root/categories';
 
 export default function Index() {
   return (
     <>
       <p>Header</p>
       <Banners />
-      <p>Categories</p>
+      <Categories />
       <p>Footer</p>
     </>
   );
