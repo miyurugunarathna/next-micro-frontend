@@ -1,17 +1,19 @@
 {
-  "name": "next-micro-frontend",
-  "version": "1.0.0",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "packageManager": "pnpm@10.10.0",
-  "dependencies": {
-    "next": "14.1.4",
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
-  },
-  "devDependencies": {
-    "@types/react": "18.2.0",
-    "@types/react-dom": "18.2.0"
-  }
+	"name": "next-micro-frontend",
+	"version": "1.0.0",
+	"scripts": {
+		"check": "biome check --write",
+		"format": "biome format --write"
+	},
+	"packageManager": "pnpm@10.10.0",
+	"dependencies": {
+		"next": "14.1.4",
+		"react": "18.2.0",
+		"react-dom": "18.2.0"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "1.9.4",
+		"@types/react": "18.2.0",
+		"@types/react-dom": "18.2.0"
+	}
 }
