@@ -1,11 +1,14 @@
 {
   "name": "@internal/ui",
   "version": "1.0.0",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "packageManager": "pnpm@10.10.0",
+  "dependencies": {
+    "@radix-ui/react-slot": "^1.2.0",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "tailwind-merge": "^3.2.0"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "packageManager": "pnpm@10.10.0"
+  "exports": {
+    ".": "./src/index.ts"
+  }
 }
