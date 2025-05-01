@@ -1,7 +1,7 @@
 {
-	"extends": "../../tsconfig.base.json",
-	"include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
-	"compilerOptions": {
-		"jsx": "preserve"
-	}
+  "extends": "../../tsconfig.base.json",
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "compilerOptions": {
+    "jsx": "preserve"
+  }
 }
