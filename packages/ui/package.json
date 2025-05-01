@@ -10,6 +10,7 @@
     "tailwind-merge": "^3.2.0"
   },
   "exports": {
+    "./util": "./src/lib/util.ts",
     "./*": "./src/*.tsx"
   }
 }
