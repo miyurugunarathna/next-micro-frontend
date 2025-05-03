@@ -2,6 +2,7 @@
   "name": "next-micro-frontend",
   "version": "1.0.0",
   "scripts": {
+    "dev": "pnpm --parallel --filter @app* dev",
     "check": "biome check --write",
     "format": "biome format --write"
   },

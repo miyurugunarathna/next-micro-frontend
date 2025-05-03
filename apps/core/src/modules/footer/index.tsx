@@ -1,3 +1,4 @@
+import Logo from '@internal/icons/logo';
 import { buttonVariants } from '@internal/ui/components/button';
 import { cn } from '@internal/ui/util';
 import Link from 'next/link';
@@ -54,7 +55,9 @@ function Footer() {
       <div className="container mx-auto py-14">
         <div className="flex flex-col gap-20 w-full">
           <div className="flex flex-col gap-4 w-full items-center">
-            <div className="w-16">Logo</div>
+            <div className="w-16">
+              <Logo />
+            </div>
             <nav>
               <ul className="flex gap-2">
                 {links.map((link) => (

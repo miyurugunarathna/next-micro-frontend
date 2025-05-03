@@ -57,6 +57,9 @@ importers:
 
   apps/core:
     dependencies:
+      '@internal/icons':
+        specifier: workspace:*
+        version: link:../../packages/icons
       '@internal/ui':
         specifier: workspace:*
         version: link:../../packages/ui
@@ -66,6 +69,8 @@ importers:
       '@internal/ui':
         specifier: workspace:*
         version: link:../../packages/ui
+
+  packages/icons: {}
 
   packages/ui:
     dependencies:

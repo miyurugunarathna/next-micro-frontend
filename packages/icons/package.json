@@ -1,0 +1,8 @@
+{
+  "name": "@internal/icons",
+  "version": "1.0.0",
+  "packageManager": "pnpm@10.10.0",
+  "exports": {
+    "./*": "./src/*.tsx"
+  }
+}

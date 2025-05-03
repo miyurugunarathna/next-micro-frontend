@@ -1,3 +1,8 @@
+import {
+  FlushedChunks,
+  flushChunks,
+  revalidate,
+} from '@module-federation/nextjs-mf/utils';
 import Document, {
   Html,
   Head,
@@ -6,11 +11,6 @@ import Document, {
   type DocumentContext,
   type DocumentProps,
 } from 'next/document';
-import {
-  revalidate,
-  FlushedChunks,
-  flushChunks,
-} from '@module-federation/nextjs-mf/utils';
 
 interface ExtendedDocumentProps extends DocumentProps {
   chunks?: string[];

@@ -1,7 +1,7 @@
 import Banners from '@/modules/root/banners';
 import Categories from '@/modules/root/categories';
-import Header from 'core/modules/header';
 import Footer from 'core/modules/footer';
+import Header from 'core/modules/header';
 
 function Index() {
   return (

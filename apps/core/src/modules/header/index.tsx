@@ -1,8 +1,9 @@
+import Logo from '@internal/icons/logo';
 import { Button, buttonVariants } from '@internal/ui/components/button';
-import { Heart, ShoppingBag } from 'lucide-react';
-import Link from 'next/link';
 import { Input } from '@internal/ui/components/input';
 import { cn } from '@internal/ui/util';
+import { Heart, ShoppingBag } from 'lucide-react';
+import Link from 'next/link';
 
 const links = [
   { label: 'New', url: '#' },
@@ -17,7 +18,9 @@ function Header() {
     <header className="mx-auto">
       <div className="container grid grid-cols-12 mx-auto items-center min-h-[4.5rem]">
         <div className="col-span-2">
-          <div className="w-14 h-14">icon</div>
+          <div className="w-14 h-14">
+            <Logo />
+          </div>
         </div>
         <div className="col-span-7 content-center justify-items-center">
           <nav>

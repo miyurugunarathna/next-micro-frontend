@@ -1,7 +1,7 @@
-import Head from 'next/head';
 import type { AppContext, AppProps } from 'next/app';
-import { Bebas_Neue } from 'next/font/google';
 import App from 'next/app';
+import { Bebas_Neue } from 'next/font/google';
+import Head from 'next/head';
 import './globals.css';
 
 const bebas = Bebas_Neue({
