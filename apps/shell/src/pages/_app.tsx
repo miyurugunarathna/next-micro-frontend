@@ -1,6 +1,7 @@
 import Head from 'next/head';
-import type { AppProps } from 'next/app';
+import type { AppContext, AppProps } from 'next/app';
 import { Bebas_Neue } from 'next/font/google';
+import App from 'next/app';
 import './globals.css';
 
 const bebas = Bebas_Neue({
@@ -21,5 +22,10 @@ function CustomApp({ Component, pageProps }: AppProps) {
     </>
   );
 }
+
+CustomApp.getInitialProps = async (ctx: AppContext) => {
+  const appProps = await App.getInitialProps(ctx);
+  return appProps;
+};
 
 export default CustomApp;

@@ -1,13 +1,21 @@
 import Banners from '@/modules/root/banners';
 import Categories from '@/modules/root/categories';
+import Header from 'core/modules/header';
+import Footer from 'core/modules/footer';
 
-export default function Index() {
+function Index() {
   return (
     <>
-      <p>Header</p>
+      <Header />
       <Banners />
       <Categories />
-      <p>Footer</p>
+      <Footer />
     </>
   );
+}
+
+export default Index;
+
+export async function getServerSideProps() {
+  return { props: {} };
 }

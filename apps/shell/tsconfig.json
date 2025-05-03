@@ -3,8 +3,10 @@
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
   "compilerOptions": {
     "jsx": "preserve",
+    "baseUrl": "./",
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["./src/*"],
+      "core/*": ["@mf-types/core/*"]
     }
   }
 }
