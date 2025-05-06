@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "rm -rf .next && NEXT_PRIVATE_LOCAL_WEBPACK=true next dev -p 3001",
-    "build": "NEXT_PRIVATE_LOCAL_WEBPACK=true next build"
+    "build": "NEXT_PRIVATE_LOCAL_WEBPACK=true next build",
+    "start": "next start -p 3001"
   },
   "packageManager": "pnpm@10.10.0",
   "dependencies": {
